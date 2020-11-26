@@ -1,0 +1,42 @@
+.clear{
+ clear:both;
+ margin-top: 20px;
+}
+
+#searchResult{
+ list-style: none;
+ padding: 0px;
+ width: 250px;
+ position: absolute;
+ margin: 0;
+ z-index: 9999;
+}
+
+#searchResult li{
+ background: lavender;
+ padding: 4px;
+ margin-bottom: 1px;
+}
+
+#searchResult li:nth-child(even){
+ background: cadetblue;
+ color: white;
+}
+
+#searchResult li:hover{
+ cursor: pointer;
+}
+
+input[type=text]{
+ padding: 5px;
+ width: 250px;
+ letter-spacing: 1px;
+}
+.searchBarSet{
+	margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 20px;
+}
+#serachQuery{
+    padding-left: 7%;
+}
